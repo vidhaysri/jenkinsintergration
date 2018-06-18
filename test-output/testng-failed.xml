@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [funtional suite]">
-  <listeners>
-    <listener class-name="testutil.extentreport"/>
-    <listener class-name="testutil.mytransformer"/>
-  </listeners>
-  <test name="First test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="testcases.mvntest">
         <methods>
@@ -13,5 +9,5 @@
         </methods>
       </class> <!-- testcases.mvntest -->
     </classes>
-  </test> <!-- First test(failed) -->
-</suite> <!-- Failed suite [funtional suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

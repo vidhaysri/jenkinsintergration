@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="funtional suite">
-	<listeners>
-		<listener class-name="testutil.extentreport" />
-			<listener class-name="testutil.mytransformer" />			
-	</listeners>	
-	<test name="First test">
-		<classes>
-			<class name="testcases.mvntest"></class>
-		</classes>
-	</test>
-</suite>
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="testcases.mvntest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            
