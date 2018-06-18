@@ -7,7 +7,7 @@
 	</listeners>	
 	<test name="First test">
 		<classes>
-			<class name="testcases.guruclass"></class>
+			<class name="testcases.mvntest"></class>
 		</classes>
 	</test>
 </suite>
