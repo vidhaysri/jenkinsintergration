@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="funtional suite">
+	<listeners>
+		<listener class-name="testutil.extentreport" />
+			<listener class-name="testutil.mytransformer" />			
+	</listeners>	
+	<test name="First test">
+		<classes>
+			<class name="testcases.guruclass"></class>
+		</classes>
+	</test>
+</suite>
