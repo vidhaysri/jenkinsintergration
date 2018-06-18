@@ -7,13 +7,11 @@
   </listeners>
   <test name="First test(failed)">
     <classes>
-      <class name="testcases.guruclass">
+      <class name="testcases.mvntest">
         <methods>
-          <include name="tearDown"/>
           <include name="test"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.guruclass -->
+      </class> <!-- testcases.mvntest -->
     </classes>
   </test> <!-- First test(failed) -->
 </suite> <!-- Failed suite [funtional suite] -->

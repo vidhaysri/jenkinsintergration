@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [funtional suite]">
+  <listeners>
+    <listener class-name="testutil.extentreport"/>
+    <listener class-name="testutil.mytransformer"/>
+  </listeners>
+  <test name="First test(failed)">
     <classes>
-      <class name="testcases.guruclass">
+      <class name="testcases.mvntest">
         <methods>
-          <include name="tearDown"/>
           <include name="test"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.guruclass -->
+      </class> <!-- testcases.mvntest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- First test(failed) -->
+</suite> <!-- Failed suite [funtional suite] -->
