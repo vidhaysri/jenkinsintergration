@@ -23,6 +23,7 @@ public class mvntest {
 			SoftAssert softassert= new SoftAssert();
 			softassert.assertTrue(false);
 			System.out.println("hellow wearehappy");
+			System.out.println("hellow wearehappy");
 			softassert.assertAll();
 		}
 
