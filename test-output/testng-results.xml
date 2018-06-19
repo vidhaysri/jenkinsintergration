@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2018-06-18T22:43:31Z" finished-at="2018-06-18T22:43:31Z">
+  <suite name="Default suite" duration-ms="51" started-at="2018-06-18T22:48:32Z" finished-at="2018-06-18T22:48:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2018-06-18T22:43:31Z" finished-at="2018-06-18T22:43:31Z">
+    <test name="Default test" duration-ms="51" started-at="2018-06-18T22:48:32Z" finished-at="2018-06-18T22:48:32Z">
       <class name="testcases.mvntest">
-        <test-method status="FAIL" signature="test()[pri:0, instance:testcases.mvntest@31a5c39e]" name="test" duration-ms="31" started-at="2018-06-18T15:43:31Z" finished-at="2018-06-18T15:43:31Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:testcases.mvntest@31a5c39e]" name="test" duration-ms="17" started-at="2018-06-18T15:48:32Z" finished-at="2018-06-18T15:48:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
